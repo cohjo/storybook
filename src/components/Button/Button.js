@@ -1,10 +1,26 @@
 import React from 'react';
 
-// This is a functional component - just sent up a little differently as an arrow function!
-const Button = (props) => (
-    <button>
+const Button = (props) => {
+    let classList = '';
+    let types = ['blue', 'bluewhite', 'bluefade',
+                'danger', 'dangerwhite', 'dangerfade',
+                'success', 'successwhite', 'successfade',
+                'warning', 'warningwhite', 'warningfade',
+                'default', 'defaultwhite', 'defaultfade',
+                'bluevoucher', 'bluevoucherlarge'];
+
+    if (types.includes(props.type)) {
+        classList += ` button-${props.type}`;
+    }
+
+    if (props.large) {
+        classList += ` button-large`;
+    }
+
+    return <button className={classList}>
         {props.label}
     </button>
-)
+    
+}
 
 export default Button;

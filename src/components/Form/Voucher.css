@@ -1,0 +1,38 @@
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 46px;
+    width: 300px;
+}
+
+.voucher_input_default {
+    height: 42px;
+    width: 180px;
+    border-top: solid #F1F3F4 2px;
+    border-bottom: solid #F1F3F4 2px;
+    border-left: solid #F1F3F4 2px;
+    border-right: 0;
+    padding-left: 10px;
+    font-size: 16px;
+    color: rgba(38,38,38,.5);
+}
+
+.voucher_label {
+    font-weight: 200;
+    font-size: 16px;
+    color: rgba(38,38,38,.5)
+}
+
+.voucher_input_large {
+    height: 56px;
+    width: 251px;
+    border-top: solid #F1F3F4 2px;
+    border-bottom: solid #F1F3F4 2px;
+    border-left: solid #F1F3F4 2px;
+    border-right: 0;
+    padding-left: 10px;
+    font-size: 16px;
+    color: rgba(38,38,38,.5);
+}
