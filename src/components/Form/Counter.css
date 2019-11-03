@@ -1,0 +1,35 @@
+.counterbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F6F7F8;
+    height: 46px;
+    width: 116px;
+}
+
+.num {
+    font-family: proxima-nova, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.minus, .plus {
+    font-family: proxima-nova, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+    background-color: #F6F7F8;
+    width: 55px;
+    color: #33A0FF;
+}
+
+.minus {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.plus {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
