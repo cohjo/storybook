@@ -6,7 +6,7 @@ const SignUpForm = (props) => {
     let types = ['medium', 'large']
 
     if (types.includes(props.type)) {
-        classList += ` forms__${props.type}`;
+        classList += ` form__${props.type}`;
     }
 
     if (props.medium) {
@@ -20,6 +20,7 @@ const SignUpForm = (props) => {
     return (
         <form className={classList}>
             <label htmlFor="email" className="form__label">Email</label>
+            <h1>Email</h1>
             <p>
                 <input type="email"
                        id="email"
